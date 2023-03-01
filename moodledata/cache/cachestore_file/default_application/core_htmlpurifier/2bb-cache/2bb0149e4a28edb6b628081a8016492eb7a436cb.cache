@@ -1,0 +1,10 @@
+s:698:"<p>Rather than keeping everything in one big list, questions may be arranged into categories and subcategories.</p>
+
+<p>Each category has a context which determines where the questions in the category can be used:</p>
+
+<ul><li>Activity context - Questions only available in the activity module</li>
+<li>Course context - Questions available in all activity modules in the course</li>
+<li>Course category context - Questions available in all activity modules and courses in the course category</li>
+<li>System context - Questions available in all courses and activities on the site</li>
+</ul><p>Categories are also used for random questions, as questions are selected from a particular category.</p>
+";

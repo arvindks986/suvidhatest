@@ -1,0 +1,514 @@
+<header class="header">
+   <nav>
+      <div class="nav-header">
+    <div class="container-fluid d-flex flex-md-row align-items-md-center">
+    <div class="float-left mr-auto">
+	<a href="#" class="navbar-brand ">
+	<img style="max-width: 40px;" src="{{ asset('admintheme/img/logo/eci-logo.png') }}" alt="" />&nbsp;
+	<span class="text" style="color:#fff;"> Election Commission of India</span> </a></div>
+     <!-- ROPC Login Section-->
+	 <div id="menu">
+       @if($user_data->role_id=='18' )
+       <?php //print_r($user_data); echo $cand_finalize_ceo; echo $cand_finalize_ro; print_r($sechdul);  
+        if(isset($ele_details))
+              $seched=getschedulebyid($ele_details->ScheduleID);
+              else 
+                $seched=getschedulebyid($edetails->ScheduleID);;
+                $sechdul=checkscheduledetails($seched);
+              
+       ?>
+        <ul class="float-right">
+          <li class="active"><a href="{{url('/ropc/dashboard')}}">Home</a></li>
+          <li><a href="javascript:void(0)">Candidate<span class="arrow-down"></span></a>
+           <ul class="dropdown">
+             @if($cand_finalize_ro=='0')
+             
+            <li><a rel="" href="{{url('/ropc/createnomination')}}" class="dropdown-item"> <span>Nomination</span></a></li>
+            <li><a rel="" href="{{url('/ropc/multiplenomination')}}" class="dropdown-item"> <span>Multiple Nomination</span></a></li>
+            @endif 
+            <li><a rel="" href="{{url('/ropc/candidateaffidavit')}}" class="dropdown-item"> <span>Upload Affidavit</span></a></li>
+             
+             
+            <li><a rel="" href="{{url('/ropc/counteraffidavit')}}" class="dropdown-item"> <span>Upload Counter Affidavit</span></a></li>
+            
+            <li><a rel="" href="{{url('/ropc/listnomination')}}" class="dropdown-item"> <span>List of Applicants</span></a></li>
+             @if($cand_finalize_ro=='0')
+             
+            <li><a rel="" href="{{url('/ropc/scrutiny-candidates')}}" class="dropdown-item"> <span>Scrutiny of Candidates</span></a></li>
+             
+            
+            <li><a rel="" href="{{url('/ropc/accepted-candidate')}}" class="dropdown-item"> Mark validly nominated candidates</a></li>
+              
+           
+            <li><a rel="" href="{{url('/ropc/withdrawn-candidates')}}" class="dropdown-item"> <span>Withdrawl of Candidates</span></a></li>
+            
+            <li><a rel="" href="{{url('/ropc/symbol-upload')}}" class="dropdown-item">Assign Symbol </a></li>
+             @endif   
+           
+           <li><a rel="" href="{{url('/ropc/contested-application')}}" class="dropdown-item"> Contesting Candidates</a></li> 
+             
+            </ul>
+          </li>
+          
+             <li><a href="javascript:void(0)" >Permission<span class="arrow-down"></span></a>
+              <ul class="dropdown">
+           <li><a rel="" href="{{url('/ropc/permission/allmasters')}}" class="dropdown-item">Add/Update Master Data </a></li>
+                <li><a rel="" href="{{url('/ropc/permission/offlinePermission')}}" class="dropdown-item"> Offline permission Module</a></li>
+                <li><a rel="" href="{{url('/ropc/permission/allPermissionRequest')}}" class="dropdown-item"> Accept/Reject permission</a></li>
+              <li><a rel="" href="{{url('/ropc/permission/agentCreation')}}" class="dropdown-item"> Create Agent</a></li>
+               
+            </ul>
+
+         </li>
+          
+          <li><a href="javascript:void(0)" >Poll Turnout<span class="arrow-down"></span></a>
+              <ul class="dropdown">
+                <li><a rel="" href="{{url('/ropc/voting/estimated-turnout')}}" class="dropdown-item">Estimated Poll Turnout</a></li>
+                <li><a rel="" href="{{url('/ropc/voting/list-schedule')}}" class="dropdown-item">End of Poll Turnout</a></li>
+				<li><a href="{{url('ropc/RoPsWiseDetails')}}">PS Wise Voter Turnout</a></li>
+                
+            </ul>
+
+         </li> 
+          
+          <!-- <li><a href="javascript:void(0)" >Counting<span class="arrow-down"></span></a>
+          <!--<ul class="dropdown">
+      <li><a rel="" href="{{url('/ropc/counting/prepare-counting')}}" class="dropdown-item">Prepare Counting Data</a></li>
+            <li><a rel="" href="{{url('/ropc/counting/listac')}}" class="dropdown-item">List All AC </a></li>
+            <li><a rel="" href="{{url('/ropc/counting/postal-data-entry')}}" class="dropdown-item"> Postal Ballot Votes </a></li>
+            <li><a rel="" href="{{url('/ropc/counting/counting-results')}}" class="dropdown-item"> Results Declaration </a></li>
+           </ul> -->
+        <!--  </li>--> 
+		
+       <li><a href="javascript:void(0)" >Master Data<span class="arrow-down"></span></a>
+            <ul class="dropdown">
+             <!--<li><a rel="" href="{{url('/ropc/electors-ropollingstationlist')}}" class="dropdown-item"> <span>Electors & PS Info</span></a></li>-->
+            </ul>
+          </li> 
+          <li><a href="javascript:void(0)" >Report<span class="arrow-down"></span></a>
+          <ul class="dropdown">
+            <!--<li><a rel="" href="{{url('/ropc/permission/permissioncount')}}" class="dropdown-item"> Permission Report</a></li>-->
+          <li><a rel="" href="{{url('/ropc/datewisereport')}}" class="dropdown-item">Nomination Report</a></li>  
+		  <li><a rel="" href="{{url('/ropc/report/scrutiny')}}" class="dropdown-item">Scrutiny Report</a></li>
+		   <li><a rel="" href="{{url('/ropc/reportpc')}}" class="dropdown-item">DateWise Permission Report</a></li>
+		  
+		  	
+	<li><a rel="" href="{{url('/ropc/permissionraw')}}" class="dropdown-item">Permission Raw Report</a></li>
+			
+ 	<li><a rel="" href="{{url('/ropc/partywise')}}" class="dropdown-item">PartyWise Permission Report</a></li>
+			
+ 	<li><a rel="" href="{{url('/ropc/permissiontype')}}" class="dropdown-item">PermissionWise Report</a></li>
+           <!--<<li><a rel="" href="{{url('/ropc/form3A-report')}}" class="dropdown-item">Form 3A Report</a></li>   
+          <li><a rel="" href="{{url('/ropc/form4A-report')}}" class="dropdown-item">Form 4A Report</a></li> --> 	 
+          </ul>
+          </li>
+          <li><a href="javascript:void(0)" >Account<span class="arrow-down"></span></a>
+           <ul class="dropdown">
+           <li><a rel="" href="{{url('/ropc/changepassword')}}" class="dropdown-item"> Change Password</a></li>
+            <li><a rel="" href="{{url('/logout')}}" class="dropdown-item"> <span class="d-none d-sm-inline-block">Logout</span> <i class="fa fa-sign-out"></i></a></li>
+           </ul>
+         </li>
+      
+        </ul>
+         @endif
+        <!-- End RO PC Model-->
+
+
+      <!-- ROACLogin Section===============================================================================-->
+       @if($user_data->role_id=='19'|| $user_data->role_id=='17' || $user_data->role_id=='20' )
+        <ul class="float-right">
+          <li class="active"><a href="{{url('/aro/permission/permissioncount')}}">Home</a></li>
+            
+        <li><a href="javascript:void(0)" >Permission<span class="arrow-down"></span></a>
+              <ul class="dropdown">
+                <li><a rel="" href="{{url('/aro/permission/allmasters')}}" class="dropdown-item">Add/Update Master Data </a></li>
+                <li><a rel="" href="{{url('/aro/permission/offlinePermission')}}" class="dropdown-item"> Offline permission Module</a></li>
+                <li><a rel="" href="{{url('/aro/permission/allPermissionRequest')}}" class="dropdown-item"> Accept/Reject permission</a></li>
+<!--                <li><a rel="" href="{{url('/ropc/manualforward')}}" class="dropdown-item">Manual Forward</a></li>-->
+               <li><a rel="" href="{{url('/aro/permission/agentCreation')}}" class="dropdown-item"> Create Agent</a></li>
+            </ul>
+
+         </li>
+         </li>
+            <li><a href="javascript:void(0)" >Poll Turnout<span class="arrow-down"></span></a>
+              <ul class="dropdown">
+                <li><a rel="" href="{{url('/aro/voting/estimate-turnout-entry')}}" class="dropdown-item">Estimate Turnout Entry</a></li>
+                <li><a rel="" href="{{url('/aro/voting/schedule-entry')}}" class="dropdown-item">End of Poll Turnout </a></li> 
+                <li><a rel="" href="{{url('/aro/voting/ElectorsDetails')}}" class="dropdown-item">Electors Details</a></li>
+			    <li><a rel="" href="{{url('/aro/voting/PsWiseDetails')}}" class="dropdown-item">PS Wise Voter Turn Out</a></li>
+            </ul>
+
+         </li>   
+           <li><a href="javascript:void(0)" >Counting<span class="arrow-down"></span></a>
+           <!--<ul class="dropdown">
+            <li><a rel="" href="{{url('/aro/counting/round-schedule')}}" class="dropdown-item"> Round Schedule </a></li>
+            <li><a rel="" href="{{url('/aro/counting/counting-data-entry')}}" class="dropdown-item"> Counting Data Entry </a></li>
+            <li><a rel="" href="{{url('/aro/counting/round-wise-entry')}}" class="dropdown-item">Round Wise Entry Details</a></li>
+          </ul> -->
+          </li> 
+        
+        <li><a href="javascript:void(0)" >Report<span class="arrow-down"></span></a>
+          <ul class="dropdown">
+            <li><a rel="" href="{{url('/aro/permission/permissioncount')}}" class="dropdown-item"> Permission Report</a></li>
+			<!-------Start niraj header------------->
+	<li><a rel="" href="{{url('/aro/permission/permissionraw-report')}}" class="dropdown-item">Permission Raw Report</a></li> 
+	<li><a rel="" href="{{url('/aro/permission/permissionpartywise-report')}}" class="dropdown-item">Partywise Permission Report</a></li>
+	<li><a rel="" href="{{url('/aro/permission/permissiondatewise-report')}}" class="dropdown-item">DateWise Permission Report</a></li>
+	<li><a rel="" href="{{url('/aro/permission/permissiontype-report')}}" class="dropdown-item">Permission Type Report</a></li>
+
+    <!-------End Niraj Header-------------------->
+             
+
+          </ul>
+          </li>
+          </li> 
+         <li><a href="javascript:void(0)" >Account<span class="arrow-down"></span></a>
+           <ul class="dropdown">
+           <li><a rel="" href="{{url('/ropc/changepassword')}}" class="dropdown-item"> Change Password</a></li>
+             <li><a rel="" href="{{url('/logout')}}" class="dropdown-item"><span class="d-none d-sm-inline-block">Logout</span> <i class="fa fa-sign-out"></i></a></li>
+           </ul>
+         </li>
+      
+        </ul>
+         @endif
+         
+         
+         @if($user_data->role_id=='21')
+        <ul class="float-right">
+          <li class="active"><a href="{{url('/ropc/dashboard')}}">Home</a></li>
+         
+           <li><a href="javascript:void(0)" >Permission<span class="arrow-down"></span></a>
+            <ul class="dropdown">
+             <li><a rel="" href="{{url('/aro/permission/offlinePermission')}}" class="dropdown-item"> Offline permission Module</a></li>
+            </ul>
+
+         </li>
+           <li><a href="javascript:void(0)" >Report<span class="arrow-down"></span></a>
+          <ul class="dropdown">
+            <li><a rel="" href="{{url('/aro/permission/permissioncount')}}" class="dropdown-item"> Permission Report</a></li> 
+
+          </ul>
+          </li> 
+          <li><a href="javascript:void(0)" >Account<span class="arrow-down"></span></a>
+           <ul class="dropdown">
+           <li><a rel="" href="{{url('/ropc/changepassword')}}" class="dropdown-item"> Change Password</a></li>
+             <li><a rel="" href="{{url('/logout')}}" class="dropdown-item"><span class="d-none d-sm-inline-block">Logout</span> <i class="fa fa-sign-out"></i></a></li>
+           </ul>
+         </li>
+      
+        </ul>
+         @endif
+        <!-- End RO AC Model-->
+
+        <!-- CEOPC Login Section-->
+       @if($user_data->role_id=='4')
+        <ul class="float-right">
+          <li class="active"><a href="{{url('/pcceo/dashboard')}}">Home</a></li>
+		  
+		<li><a href="javascript:void(0)" >Voter Turn Out<span class="arrow-down"></span></a>
+            <ul class="dropdown">
+              <li><a class="dropdown-item" href="{{url('pcceo/PcCeoEstimatePollTurnoutPc')}}">Estimated Poll Percentage</a></li>
+              <li><a class="dropdown-item" href="{{url('pcceo/PcCeoEstimatePollTurnoutAc')}}">AC Wise Report</a></li>
+<li><a class="dropdown-item" href="{{url('pcceo/PcCeoMissedAc')}}">ACs Not Filled</a></li>
+<?php /*<li><a class="dropdown-item" href="{{url('pcceo/PcCeoCloseOfPoll')}}">Comparison Report</a></li>*/?>
+              <li><a class="dropdown-item" href="{{url('pcceo/PcCeoEndOfPoll')}}">End Of Poll</a></li>
+			  <li><a class="dropdown-item" href="{{url('/pcceo/end-of-poll-finalize')}}" class="dropdown-item">End of Poll Finalize</a></li>
+			  <li><a href="{{url('pcceo/CeoPsWiseDetails')}}">PS Wise Voter Turnout</a></li>
+  </ul>
+           </li>
+		  
+		
+		<?php /* <li><a href="{{url('pcceo/voting/list-schedule/acwise')}}">AC wise TurnOut</a> */?>
+		
+      <!--<li><a href="{{url('pcceo/voting/list-schedule/state')}}">Poll TurnOut</a>-->
+      
+      </li>
+
+          <li><a href="javascript:void(0)">Candidate<span class="arrow-down"></span></a>
+           <ul class="dropdown">
+            <li><a rel="" href="{{url('/pcceo/candidate-finalize')}}" class="dropdown-item"> <span>List of Nomination Finalize</span></a></li>
+            
+            </ul>
+          </li>
+            <li><a href="javascript:void(0)" >Permission<span class="arrow-down"></span></a>
+              <ul class="dropdown">
+                <li><a rel="" href="{{url('/pcceo/allmasters')}}" class="dropdown-item">Add/Update Master Data </a></li>
+				<li><a rel="" href="{{url('/pcceo/offlinePermission')}}" class="dropdown-item"> Offline permission Module</a></li>
+                 <li><a rel="" href="{{url('/pcceo/allPermissionRequest')}}" class="dropdown-item"> Accept/Reject permission</a></li>
+                <li><a rel="" href="{{url('/pcceo/permissioncount')}}" class="dropdown-item"> Permission Report</a></li>
+                <li><a rel="" href="{{url('/pcceo/agentCreation')}}" class="dropdown-item"> Create CEO-Agent</a></li>
+ 
+            </ul>
+              
+         </li>
+          <!--<li><a href="javascript:void(0)" >Counting<span class="arrow-down"></span></a>
+          <ul class="dropdown">
+            <li><a rel="" href="#" class="dropdown-item">comming </a></li>
+            <li><a rel="" href="#" class="dropdown-item">Comming </a></li>
+             
+           </ul>
+          </li>-->
+		   
+           <li><a href="javascript:void(0)" >Master Data<span class="arrow-down"></span></a>
+            <ul class="dropdown">
+             <!--<li><a rel="" href="{{url('/pcceo/electors-pollingstationlist')}}" class="dropdown-item"> <span>Electors & PS Info</span></a></li>-->
+			 <li><a rel="" href="{{url('/pcceo/officer-details')}}" class="dropdown-item"> <span>Update Officer Details</span></a></li>
+            <li><a rel="" href="{{url('/pcceo/psinfo')}}" class="dropdown-item"> <span>PS Details & AMF</span></a></li>
+          </ul>
+          </li>
+       
+          <li><a href="javascript:void(0)" >Report<span class="arrow-down"></span></a>
+            <ul class="dropdown">
+              <li><a rel="" href="{{url('/pcceo/pclist')}}" class="dropdown-item">List Of PCs With Candidate Details</a></li>
+              <li><a rel="" href="{{ url('pcceo/duplicate-symbol-view') }}" class="dropdown-item">Duplicate Symbols</a></li>
+              <li><a rel="" href="{{url('/pcceo/duplicateparties')}}" class="dropdown-item"> Duplicate Parties  </a></li>
+              
+              <li><a rel="" href="{{url('/pcceo/nomination-report')}}" class="dropdown-item">Nomination Report</a></li> 
+			    <!-- waseem asgar -->
+              <li><a rel="" href="{{url('/pcceo/report/scrutiny')}}" class="dropdown-item">Scrutiny Report</a></li> 
+              <!-- End waseem asgar -->
+              <li><a rel="" href="{{url('/pcceo/candidate-symbol-no-200')}}" class="dropdown-item">List of Candidates with Symbol No 200</a></li>
+      <li><a rel="" href="{{url('/pcceo/login-detail')}}" class="dropdown-item">CEO Officer Login Report</a></li>
+	  <li><a rel="" href="{{url('/pcceo/CountingStatus')}}" class="dropdown-item">Counting Status Report</a></li>
+              <li><a rel="" href="{{url('/pcceo/CeoElectionSchedule')}}" class="dropdown-item">Election Schedule</a></li>
+			   <li><a rel="" href="{{url('/pcceo/districtvalue')}}" class="dropdown-item">DistrictWise Permission Report</a></li>
+              <li><a rel="" href="{{url('/pcceo/reportceo')}}" class="dropdown-item">DateWise Permission Report</a></li>
+			  <li><a rel="" href="{{url('/pcceo/ceoreport')}}" class="dropdown-item">Permission Raw Report</a></li>
+			  <li><a rel="" href="{{url('/pcceo/partywise')}}" class="dropdown-item">PartyWise Permission Report</a></li>
+			<li><a rel="" href="{{url('/pcceo/permissiontype')}}" class="dropdown-item">PermissionWise Report</a></li>
+            </ul>
+          </li>
+         <li><a href="javascript:void(0)" >Account<span class="arrow-down"></span></a>
+           <ul class="dropdown">
+           <li><a rel="" href="{{url('/pcceo/change-password')}}" class="dropdown-item"> Change Password</a></li>
+            <li><a rel="" href="{{url('/logout')}}" class="dropdown-item"> <span class="d-none d-sm-inline-block">Logout</span> <i class="fa fa-sign-out"></i></a></li>
+           </ul>
+         </li>  
+            </ul>
+          </li>
+          
+        </ul>
+         @endif
+        <!-- End CEO PC Model-->
+		@if($user_data->role_id=='23')
+			 <li class="active"><a href="{{url('/pcceo/dashboard')}}">Home</a></li>
+		 
+     
+      <li><a href="{{url('pcceo/voting/list-schedule/state')}}">Poll TurnOut</a>
+         
+      </li>
+	  <li><a href="javascript:void(0)" >Permission<span class="arrow-down"></span></a>
+              <ul class="dropdown">
+          <li><a rel="" href="{{url('/pcceo/offlinePermission')}}" class="dropdown-item"> Offline permission Module</a></li>
+          <li><a rel="" href="{{url('/pcceo/permissioncount')}}" class="dropdown-item"> Permission Report</a></li> 
+         </ul>
+         </li>
+
+			   
+			 <li><a href="javascript:void(0)" >Account<span class="arrow-down"></span></a>
+           <ul class="dropdown">
+           <li><a rel="" href="{{url('/pcceo/change-password')}}" class="dropdown-item"> Change Password</a></li>
+            <li><a rel="" href="{{url('/logout')}}" class="dropdown-item"> <span class="d-none d-sm-inline-block">Logout</span> <i class="fa fa-sign-out"></i></a></li>
+           </ul>
+         </li>
+		@endif
+
+        <!-- DEOPC Login Section-->
+       @if($user_data->role_id=='5')
+        <ul class="float-right">
+          <li class="active"><a href="{{url('/pcdeo/dashboard')}}">Home</a></li>
+          <li><a href="javascript:void(0)">Candidate<span class="arrow-down"></span></a>
+           <!--<ul class="dropdown">
+           <li><a rel="" href="#" class="dropdown-item">comming </a></li>
+            <li><a rel="" href="#" class="dropdown-item">Comming </a></li>
+            </ul>-->
+          </li>
+           <li><a href="javascript:void(0)" >Permission<span class="arrow-down"></span></a>
+              <ul class="dropdown">
+               @if($user_data->st_code=='U01' || $user_data->st_code=='U02' || $user_data->st_code=='U03' || $user_data->st_code=='U04' || $user_data->st_code=='U05' || $user_data->st_code=='U06' || $user_data->st_code=='U07' || $user_data->st_code=='S16')
+                <li><a rel="" href="{{url('/pcdeo/allmasters')}}" class="dropdown-item">Add/Update Master Data </a></li>
+                @endif
+				<li><a rel="" href="{{url('/pcdeo/offlinePermission')}}" class="dropdown-item"> Offline permission Module</a></li>
+                <li><a rel="" href="{{url('/pcdeo/allPermissionRequest')}}" class="dropdown-item"> Accept/Reject permission</a></li>
+                 <li><a rel="" href="{{url('/pcdeo/agentCreation')}}" class="dropdown-item"> Create DEO-Agent</a></li>
+            </ul>
+
+         </li>
+          <!--<li><a href="javascript:void(0)" >Counting<span class="arrow-down"></span></a>
+          <ul class="dropdown">
+         <li><a rel="" href="#" class="dropdown-item">comming </a></li>
+            <li><a rel="" href="#" class="dropdown-item">Comming </a></li>
+           </ul>
+          </li>-->
+          
+			 
+          <li><a href="javascript:void(0)" >Report<span class="arrow-down"></span></a>
+            <ul class="dropdown">
+              <li><a rel="" href="{{url('/pcdeo/datewisereport')}}" class="dropdown-item">Nomination Report</a></li>
+               <li><a rel="" href="{{url('/pcdeo/permissioncount')}}" class="dropdown-item"> Permission Report</a></li>
+			    <li><a rel="" href="{{url('/pcdeo/reportdeo')}}" class="dropdown-item">DateWise Permission Report</a></li>
+				<li><a rel="" href="{{url('/pcdeo/permissionraw')}}" class="dropdown-item">Permission Raw Report</a></li>
+			<li><a rel="" href="{{url('/pcdeo/partywise')}}" class="dropdown-item">PartyWise Permission Report</a></li>
+			<li><a rel="" href="{{url('/pcdeo/permissiontype')}}" class="dropdown-item">PermissionWise Report</a></li>
+
+            </ul>
+          </li>
+		  
+        <li><a href="javascript:void(0)" >Master Data<span class="arrow-down"></span></a>
+            <ul class="dropdown">
+             			<li><a rel="" href="{{url('/pcdeo/officer-details')}}" class="dropdown-item"> <span> Update Officer Details</span></a></li>
+            </ul>
+          </li>
+		    <li><a href="javascript:void(0)" >Account<span class="arrow-down"></span></a>
+            <ul class="dropdown">
+            <li><a rel="" href="{{url('/pcdeo/changepassword')}}" class="dropdown-item"> Change Password</a></li>
+			 <li><a rel="" href="{{url('/logout')}}" class="dropdown-item"><span class="d-none d-sm-inline-block">Logout</span> <i class="fa fa-sign-out"></i></a></li>
+            </ul>
+          </li>
+      
+        </ul>
+         @endif
+		
+      <!--RO PC AGENT URLS STARTS-->
+         @if($user_data->role_id=='22')
+        <ul class="float-right">
+          <li class="active"><a href="{{url('/ropc/dashboard')}}">Home</a></li>
+          <li><a href="javascript:void(0)" >Permission<span class="arrow-down"></span></a>
+              <ul class="dropdown">
+          <li><a rel="" href="{{url('/ropc/permission/offlinePermission')}}" class="dropdown-item"> Offline permission Module</a></li>
+          <li><a rel="" href="{{url('/ropc/permission/permissioncount')}}" class="dropdown-item"> Permission Report</a></li> 
+         </ul>
+         </li>
+          <li><a href="javascript:void(0)" >Account<span class="arrow-down"></span></a>
+           <ul class="dropdown">
+           <li><a rel="" href="{{url('/ropc/changepassword')}}" class="dropdown-item"> Change Password</a></li>
+            <li><a rel="" href="{{url('/logout')}}" class="dropdown-item"> <span class="d-sm-inline-block">Logout</span> <i class="fa fa-sign-out"></i></a></li>
+           </ul>
+         </li>
+        </ul>
+        @endif
+        <!--RO PC AGENT URLS ENDS-->
+		<!--DEO PC AGENT URLS STARTS-->
+       @if($user_data->role_id=='24')
+       <li class="active"><a href="{{url('/pcdeo/dashboard')}}">Home</a></li>
+       <li><a href="javascript:void(0)" >Permission<span class="arrow-down"></span></a>
+            <ul class="dropdown">
+       <li><a rel="" href="{{url('/pcdeo/offlinePermission')}}" class="dropdown-item"> Offline permission Module</a></li>
+       <li><a rel="" href="{{url('/pcdeo/permissioncount')}}" class="dropdown-item"> Permission Report</a></li>
+       </ul>
+
+         </li>
+         
+       <li><a href="javascript:void(0)" >Account<span class="arrow-down"></span></a>
+        <ul class="dropdown">
+        <li><a rel="" href="{{url('/pcdeo/changepassword')}}" class="dropdown-item"> Change Password</a></li>
+         <li><a rel="" href="{{url('/logout')}}" class="dropdown-item"><span class="d-sm-inline-block">Logout</span> <i class="fa fa-sign-out"></i></a></li>
+        </ul>
+        </li>
+       @endif
+       <!--DEO PC AGENT URLS ENDS-->
+        <!-- End DEO PC Model-->
+
+        <!-- ECIPC Login Section-->
+       @if($user_data->role_id=='7' || $user_data->role_id=='25')
+        <ul class="float-right">
+          <li class="active"><a href="{{url('/eci/dashboard')}}">Home</a></li>
+		 
+<!-- waseem 2019-04-09 -->
+<li><a href="javascript:void(0)">Phase 1 Voter Turnout<span class="arrow-down"></span></a>
+            <ul class="dropdown">
+
+              <li><a href="{{url('eci/voting/list-schedule')}}">Poll Turn Out</a></li>
+
+              <li><a href="{{url('eci/report/voting/end-of-poll')}}?phase=1">End of Poll</a></li>
+              <li><a href="{{url('eci/report/voting/close-of-poll')}}?phase=1">End of Poll Comparision Report</a></li>
+
+
+
+              <?php /* <!--PRADEEP ECI ROUTRES STARTS-->
+              <li><a href="{{url('eci/EciPollPercent')}}">Poll Percentage</a></li>
+              <li><a rel="" href="{{url('/eci/EciPollTurnOutPcWise')}}" class="dropdown-item">PC Wise Poll Turn Out</a></li>
+              <li><a rel="" href="{{url('/eci/EciPollTurnOutAcWise')}}" class="dropdown-item">AC Wise Poll Turn Out</a></li>
+              <li><a rel="" href="{{url('/eci/EciCompPollRoundReport')}}" class="dropdown-item">Complete Round Wise Report</a></li>
+              <!--PRADEEP ECI ROUTRES ENDS-->*/?>
+                   
+            </ul>
+          </li>
+
+          
+
+
+          <li><a href="javascript:void(0)" >Voter Turnout<span class="arrow-down"></span></a>
+            <ul class="dropdown">
+				<li><a href="{{url('eci/report/voting/end-of-poll')}}">End of Poll</a></li>
+<li><a href="{{url('eci/report/voting/close-of-poll')}}">End of Poll Comparision Report</a></li>
+              <li><a href="{{url('eci/report/voting/list-schedule')}}">Estimate Poll Percentage</a></li>
+              <li><a href="{{url('eci/report/voting/get_missed')}}">Ac's not Filled</a></li>
+		<li><a href="{{url('eci/report/voting/compare')}}">Comparision Report(Estimated Turnout)</a></li>
+		<li><a href="{{url('eci/EciEndOfPollFinalised')}}">End Of Poll Finalised</a></li>
+		<li><a href="{{url('eci/report/voting/end-of-poll-summary')}}">End of Poll Consolidate Report</a></li>
+		<li><a href="{{url('eci/EciPsWiseDetails')}}">PS Wise Voter Turnout</a></li>
+                   
+            </ul>
+          </li>
+
+           <!--<li><a href="javascript:void(0)">Candidate<span class="arrow-down"></span></a>
+          <ul class="dropdown">
+            <li><a rel="" href="#" class="dropdown-item">comming </a></li>
+            <li><a rel="" href="#" class="dropdown-item">Comming </a></li>
+           
+            </ul>
+          </li>-->
+          <!--<li><a href="javascript:void(0)" >Counting<span class="arrow-down"></span></a>
+          <ul class="dropdown">
+            <li><a rel="" href="#" class="dropdown-item">comming </a></li>
+            <li><a rel="" href="#" class="dropdown-item">Comming </a></li>
+           </ul>
+          </li>
+          <li><a href="javascript:void(0)" >Permission<span class="arrow-down"></span></a>
+            <ul class="dropdown">
+             <li><a rel="" href="{{url('/eci/ViewAgent')}}" class="dropdown-item">ECI-Agent </a></li>  
+            </ul>
+          </li>-->
+          <li><a href="javascript:void(0)" >Report<span class="arrow-down"></span></a>
+            <ul class="dropdown">
+			<!--PRADEEP LINKS STARTS-->
+             <li><a rel="" href="{{url('/eci/EciActiveUsers')}}" class="dropdown-item">Active Users Report</a></li>
+             <li><a rel="" href="{{url('/eci/EciElectionSchedule')}}" class="dropdown-item">Election Schedule</a></li>
+             <li><a rel="" href="{{url('/eci/EciPartyData')}}" class="dropdown-item">Party Data Report</a></li>
+             <li><a rel="" href="{{url('/eci/EciSymbolData')}}" class="dropdown-item">Symbol Data Report</a></li>
+             <li><a rel="" href="{{url('/eci/EciPhaseInfoData')}}" class="dropdown-item">Valid Nomination Report</a></li>
+			  <!-- waseem asgar -->
+            <li><a rel="" href="{{url('/eci/report/scrutiny/state')}}" class="dropdown-item">Scrutiny Report</a></li>  
+            <!-- end waseem asgar -->
+			
+			<li><a rel="" href="{{url('/eci/EciNominationFinalized')}}" class="dropdown-item">PCs Finalized</a></li>
+			 <!--PRADEEP LINKS ENDS-->
+			 <li><a rel="" href="{{url('/eci/report')}}" class="dropdown-item">DateWise Permission Report</a></li>
+			 <li><a rel="" href="{{url('/eci/partywise')}}" class="dropdown-item">PartyWise Permission Report</a></li>
+			 <li><a rel="" href="{{url('/eci/permissiontype')}}" class="dropdown-item">PermissionWise Report</a></li>
+              <!--<li><a rel="" href="#" class="dropdown-item"> Report 3 </a></li>-->    
+            </ul>
+          </li>
+          <li><a href="{{url('/logout')}}" class="nav-link logout"> <span class="d-none d-sm-inline-block">Logout</span> <i class="fa fa-sign-out"></i></a></li>
+      
+        </ul>
+         @endif
+        <!-- End ECI PC Model-->
+      </div>
+      </div>
+     <!--  <div class="nav-bg-header">
+        <div class="navbar-header"> <span></span> <span></span> <span></span> </div>
+        <a href="" class="title-mobile">Election Commission of India</a>
+      </div> -->
+    </nav>
+	<!-- Global site tag (gtag.js) - Google Analytics by niraj_15_03_2019 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136115909-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-136115909-1');
+</script>
+   </header>

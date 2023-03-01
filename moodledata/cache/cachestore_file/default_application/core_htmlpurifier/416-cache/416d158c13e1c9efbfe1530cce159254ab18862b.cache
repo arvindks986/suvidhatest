@@ -1,0 +1,3 @@
+s:234:"<p>When students are marking their own attendance, the number of minutes after session starts that this status is available.
+ <br />If empty, this status will always be available, If set to 0 it will always be hidden to students.</p>
+";

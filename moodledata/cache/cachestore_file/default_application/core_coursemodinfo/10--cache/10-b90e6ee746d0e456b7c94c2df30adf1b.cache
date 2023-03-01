@@ -1,0 +1,177 @@
+O:8:"stdClass":9:{s:7:"modinfo";a:31:{i:13;O:8:"stdClass":12:{s:2:"id";s:1:"1";s:2:"cm";s:2:"13";s:3:"mod";s:4:"page";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"43";s:6:"module";s:2:"15";s:5:"added";s:10:"1588936422";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"1";s:4:"name";s:19:"See Course Schedule";}i:14;O:8:"stdClass":13:{s:2:"id";s:1:"2";s:2:"cm";s:2:"14";s:3:"mod";s:8:"resource";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"43";s:6:"module";s:2:"17";s:5:"added";s:10:"1588937686";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:4:"icon";s:13:"f/document-24";s:4:"name";s:32:"Download updated Course Schedule";s:10:"customdata";s:148:"a:4:{s:10:"printintro";i:1;s:8:"showsize";i:1;s:8:"showdate";i:1;s:11:"filedetails";a:2:{s:4:"size";i:20809;s:12:"uploadeddate";s:10:"1588937643";}}";}i:18;O:8:"stdClass":13:{s:2:"id";s:1:"1";s:2:"cm";s:2:"18";s:3:"mod";s:10:"attendance";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"43";s:6:"module";s:2:"23";s:5:"added";s:10:"1589117335";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"1";s:12:"availability";s:67:"{"op":"&","c":[{"type":"completion","cm":13,"e":1}],"showc":[true]}";s:4:"name";s:20:"Mark your Attendance";}i:45;O:8:"stdClass":11:{s:2:"id";s:2:"10";s:2:"cm";s:2:"45";s:3:"mod";s:5:"forum";s:7:"section";s:1:"0";s:9:"sectionid";s:2:"43";s:6:"module";s:1:"9";s:5:"added";s:10:"1622705686";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:4:"name";s:13:"Announcements";}i:12;O:8:"stdClass":15:{s:2:"id";s:1:"1";s:2:"cm";s:2:"12";s:3:"mod";s:8:"resource";s:7:"section";s:1:"1";s:9:"sectionid";s:2:"44";s:6:"module";s:2:"17";s:5:"added";s:10:"1588922312";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"2";s:14:"completionview";s:1:"1";s:4:"icon";s:15:"f/powerpoint-24";s:4:"name";s:31:"See the Presentation on c-VIGIL";s:10:"customdata";s:149:"a:4:{s:10:"printintro";i:1;s:8:"showsize";i:1;s:8:"showdate";i:1;s:11:"filedetails";a:2:{s:4:"size";i:986320;s:12:"uploadeddate";s:10:"1589364644";}}";}i:17;O:8:"stdClass":13:{s:2:"id";s:1:"2";s:2:"cm";s:2:"17";s:3:"mod";s:4:"page";s:7:"section";s:1:"1";s:9:"sectionid";s:2:"44";s:6:"module";s:2:"15";s:5:"added";s:10:"1588949795";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"2";s:14:"completionview";s:1:"1";s:4:"name";s:29:"See 3 Minutes Video on cVigil";}i:15;O:8:"stdClass":13:{s:2:"id";s:1:"1";s:2:"cm";s:2:"15";s:3:"mod";s:4:"book";s:7:"section";s:1:"1";s:9:"sectionid";s:2:"44";s:6:"module";s:1:"3";s:5:"added";s:10:"1588937923";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"2";s:14:"completionview";s:1:"1";s:4:"name";s:16:"eBook on c-VIGIL";}i:21;O:8:"stdClass":11:{s:2:"id";s:1:"2";s:2:"cm";s:2:"21";s:3:"mod";s:3:"url";s:7:"section";s:1:"1";s:9:"sectionid";s:2:"44";s:6:"module";s:2:"20";s:5:"added";s:10:"1589118412";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:4:"name";s:34:"Download c-VIGIL Citizen App (iOS)";}i:20;O:8:"stdClass":11:{s:2:"id";s:1:"1";s:2:"cm";s:2:"20";s:3:"mod";s:3:"url";s:7:"section";s:1:"1";s:9:"sectionid";s:2:"44";s:6:"module";s:2:"20";s:5:"added";s:10:"1589118338";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:4:"name";s:38:"Download c-VIGIL Citizen App (Android)";}i:16;O:8:"stdClass":17:{s:2:"id";s:1:"1";s:2:"cm";s:2:"16";s:3:"mod";s:4:"quiz";s:7:"section";s:1:"1";s:9:"sectionid";s:2:"44";s:6:"module";s:2:"16";s:5:"added";s:10:"1588945292";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"2";s:25:"completiongradeitemnumber";s:1:"0";s:14:"completionview";s:1:"1";s:15:"showdescription";s:1:"1";s:4:"name";s:33:"Quiz on c-Vigil General Awareness";s:7:"content";s:105:"<div class="no-overflow"><p>No of&nbsp; Question: 15<br>Total Marks: 15<br>Negative Marking: No</p></div>";s:10:"customdata";a:1:{s:21:"customcompletionrules";a:2:{s:27:"completionattemptsexhausted";s:1:"1";s:14:"completionpass";s:1:"1";}}}i:33;O:8:"stdClass":16:{s:2:"id";s:1:"3";s:2:"cm";s:2:"33";s:3:"mod";s:6:"lesson";s:7:"section";s:1:"1";s:9:"sectionid";s:2:"44";s:6:"module";s:2:"13";s:5:"added";s:10:"1589271507";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"2";s:14:"completionview";s:1:"1";s:15:"showdescription";s:1:"1";s:4:"name";s:36:"A quick lesson on cVIGIL Citizen App";s:7:"content";s:104:"<div class="no-overflow"><p>See every topic of this lesson carefully and answer the questions.</p></div>";s:10:"customdata";a:1:{s:21:"customcompletionrules";a:2:{s:20:"completionendreached";s:1:"1";s:19:"completiontimespent";s:1:"0";}}}i:19;O:8:"stdClass":16:{s:2:"id";s:1:"2";s:2:"cm";s:2:"19";s:3:"mod";s:6:"assign";s:7:"section";s:1:"1";s:9:"sectionid";s:2:"44";s:6:"module";s:1:"1";s:5:"added";s:10:"1589118075";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"2";s:14:"completionview";s:1:"1";s:15:"showdescription";s:1:"1";s:4:"name";s:41:"Assignment: Write a short note on c-VIGIL";s:7:"content";s:134:"<div class="no-overflow">Submit your text online or attach the word document.<br>Word limit: 200 words<br>Maximum marks: 100<br></div>";s:10:"customdata";a:1:{s:21:"customcompletionrules";a:1:{s:16:"completionsubmit";s:1:"1";}}}i:24;O:8:"stdClass":16:{s:2:"id";s:1:"1";s:2:"cm";s:2:"24";s:3:"mod";s:8:"feedback";s:7:"section";s:1:"1";s:9:"sectionid";s:2:"44";s:6:"module";s:1:"7";s:5:"added";s:10:"1589204202";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"2";s:14:"completionview";s:1:"1";s:15:"showdescription";s:1:"1";s:4:"name";s:35:"Feedback: Your views on this course";s:7:"content";s:146:"<div class="no-overflow"><p>Help us to improve the course for future participants. Your entries will be considered as an anonymous user.</p></div>";s:10:"customdata";a:2:{s:21:"customcompletionrules";a:1:{s:16:"completionsubmit";s:1:"1";}s:9:"anonymous";s:1:"1";}}i:44;O:8:"stdClass":11:{s:2:"id";s:1:"1";s:2:"cm";s:2:"44";s:3:"mod";s:15:"lightboxgallery";s:7:"section";s:1:"1";s:9:"sectionid";s:2:"44";s:6:"module";s:2:"25";s:5:"added";s:10:"1589444617";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:4:"name";s:27:"Session 1 (cVIGIL)- Gallery";}i:22;O:8:"stdClass":15:{s:2:"id";s:1:"3";s:2:"cm";s:2:"22";s:3:"mod";s:8:"resource";s:7:"section";s:1:"2";s:9:"sectionid";s:2:"45";s:6:"module";s:2:"17";s:5:"added";s:10:"1589178570";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"2";s:14:"completionview";s:1:"1";s:4:"icon";s:15:"f/powerpoint-24";s:4:"name";s:34:"Presentation on Voter Helpline APP";s:10:"customdata";s:311:"a:5:{s:10:"printintro";i:1;s:8:"showsize";i:1;s:8:"showtype";i:1;s:8:"showdate";i:1;s:11:"filedetails";a:4:{s:4:"size";i:791478;s:4:"type";s:28:"Powerpoint 2007 presentation";s:8:"mimetype";s:73:"application/vnd.openxmlformats-officedocument.presentationml.presentation";s:12:"uploadeddate";s:10:"1589178547";}}";}i:34;O:8:"stdClass":16:{s:2:"id";s:1:"4";s:2:"cm";s:2:"34";s:3:"mod";s:6:"lesson";s:7:"section";s:1:"2";s:9:"sectionid";s:2:"45";s:6:"module";s:2:"13";s:5:"added";s:10:"1589294331";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"2";s:14:"completionview";s:1:"1";s:15:"showdescription";s:1:"1";s:4:"name";s:38:"A quick tutorial on Voter Helpline APP";s:7:"content";s:108:"<div class="no-overflow"><p>See every topic of this lesson carefully and answer the questions.<br></p></div>";s:10:"customdata";a:1:{s:21:"customcompletionrules";a:2:{s:20:"completionendreached";s:1:"1";s:19:"completiontimespent";s:1:"0";}}}i:35;O:8:"stdClass":14:{s:2:"id";s:1:"2";s:2:"cm";s:2:"35";s:3:"mod";s:4:"quiz";s:7:"section";s:1:"2";s:9:"sectionid";s:2:"45";s:6:"module";s:2:"16";s:5:"added";s:10:"1589356445";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"1";s:15:"showdescription";s:1:"1";s:4:"name";s:23:"Voter Helpline App Quiz";s:7:"content";s:134:"<div class="no-overflow"><p>Participate in VHA Quiz<br>Total Question: 10<br>Total Marks: 10 (1 each)<br>No Negative Marking</p></div>";}i:39;O:8:"stdClass":16:{s:2:"id";s:1:"3";s:2:"cm";s:2:"39";s:3:"mod";s:6:"assign";s:7:"section";s:1:"2";s:9:"sectionid";s:2:"45";s:6:"module";s:1:"1";s:5:"added";s:10:"1589359762";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"2";s:14:"completionview";s:1:"1";s:15:"showdescription";s:1:"1";s:4:"name";s:15:"Assignment- VHA";s:7:"content";s:241:"<div class="no-overflow"><p>Discover the features of VHA and write a short note on the following</p><p><ol><li>Electoral Search</li><li>Filing a&nbsp;Grievance&nbsp;</li><li>submission of Forms</li></ol><p>(Word limit: 500)<br></p></p></div>";s:10:"customdata";a:1:{s:21:"customcompletionrules";a:1:{s:16:"completionsubmit";s:1:"1";}}}i:25;O:8:"stdClass":16:{s:2:"id";s:1:"2";s:2:"cm";s:2:"25";s:3:"mod";s:8:"feedback";s:7:"section";s:1:"2";s:9:"sectionid";s:2:"45";s:6:"module";s:1:"7";s:5:"added";s:10:"1589206599";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"2";s:14:"completionview";s:1:"1";s:15:"showdescription";s:1:"1";s:4:"name";s:35:"Feedback: Your views on this course";s:7:"content";s:92:"<div class="no-overflow"><p>Help us to improve the course for future participants.</p></div>";s:10:"customdata";a:2:{s:21:"customcompletionrules";a:1:{s:16:"completionsubmit";s:1:"1";}s:9:"anonymous";s:1:"1";}}i:30;O:8:"stdClass":15:{s:2:"id";s:1:"4";s:2:"cm";s:2:"30";s:3:"mod";s:8:"resource";s:7:"section";s:1:"3";s:9:"sectionid";s:2:"46";s:6:"module";s:2:"17";s:5:"added";s:10:"1589265480";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"2";s:14:"completionview";s:1:"1";s:4:"icon";s:15:"f/powerpoint-24";s:4:"name";s:30:"Voter Turnout App Presentation";s:10:"customdata";s:312:"a:5:{s:10:"printintro";i:1;s:8:"showsize";i:1;s:8:"showtype";i:1;s:8:"showdate";i:1;s:11:"filedetails";a:4:{s:4:"size";i:1610889;s:4:"type";s:28:"Powerpoint 2007 presentation";s:8:"mimetype";s:73:"application/vnd.openxmlformats-officedocument.presentationml.presentation";s:12:"uploadeddate";s:10:"1589265480";}}";}i:29;O:8:"stdClass":13:{s:2:"id";s:1:"4";s:2:"cm";s:2:"29";s:3:"mod";s:4:"page";s:7:"section";s:1:"3";s:9:"sectionid";s:2:"46";s:6:"module";s:2:"15";s:5:"added";s:10:"1589263484";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"2";s:14:"completionview";s:1:"1";s:4:"name";s:38:"See a short video on Voter Turnout App";}i:31;O:8:"stdClass":15:{s:2:"id";s:1:"3";s:2:"cm";s:2:"31";s:3:"mod";s:3:"url";s:7:"section";s:1:"3";s:9:"sectionid";s:2:"46";s:6:"module";s:2:"20";s:5:"added";s:10:"1589265822";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"2";s:14:"completionview";s:1:"1";s:15:"showdescription";s:1:"1";s:4:"name";s:56:"The application is available from google play store here";s:7:"content";s:271:"<div class="no-overflow"><p>Download the Voter Turn out App From Play store:<br><a href="https://play.google.com/store/apps/details?id=in.gov.eci.pollturnout&amp;hl=en_IN">https://play.google.com/store/apps/details?id=in.gov.eci.pollturnout&amp;hl=en_IN</a><br></p></div>";}i:32;O:8:"stdClass":16:{s:2:"id";s:1:"2";s:2:"cm";s:2:"32";s:3:"mod";s:6:"lesson";s:7:"section";s:1:"3";s:9:"sectionid";s:2:"46";s:6:"module";s:2:"13";s:5:"added";s:10:"1589266300";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"2";s:14:"completionview";s:1:"1";s:15:"showdescription";s:1:"1";s:4:"name";s:33:"Voter Turnout App: A short Lesson";s:7:"content";s:87:"<div class="no-overflow"><p>See each page carefully and answer the questions.</p></div>";s:10:"customdata";a:1:{s:21:"customcompletionrules";a:2:{s:20:"completionendreached";s:1:"1";s:19:"completiontimespent";s:1:"0";}}}i:27;O:8:"stdClass":16:{s:2:"id";s:1:"3";s:2:"cm";s:2:"27";s:3:"mod";s:8:"feedback";s:7:"section";s:1:"3";s:9:"sectionid";s:2:"46";s:6:"module";s:1:"7";s:5:"added";s:10:"1589209079";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"2";s:14:"completionview";s:1:"1";s:15:"showdescription";s:1:"1";s:4:"name";s:35:"Feedback: Your views on this course";s:7:"content";s:145:"<div class="no-overflow"><p>Help us to improve the course for future participants. Your entries will be submitted as an anonymous user.</p></div>";s:10:"customdata";a:2:{s:21:"customcompletionrules";a:1:{s:16:"completionsubmit";s:1:"1";}s:9:"anonymous";s:1:"1";}}i:26;O:8:"stdClass":15:{s:2:"id";s:1:"3";s:2:"cm";s:2:"26";s:3:"mod";s:4:"page";s:7:"section";s:1:"4";s:9:"sectionid";s:2:"47";s:6:"module";s:2:"15";s:5:"added";s:10:"1589208619";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"2";s:14:"completionview";s:1:"1";s:15:"showdescription";s:1:"1";s:4:"name";s:51:"See the history of ERO Net and its features (Video)";s:7:"content";s:61:"<div class="no-overflow"><p>Video Length: 5 Minutes</p></div>";}i:40;O:8:"stdClass":15:{s:2:"id";s:1:"5";s:2:"cm";s:2:"40";s:3:"mod";s:8:"resource";s:7:"section";s:1:"4";s:9:"sectionid";s:2:"47";s:6:"module";s:2:"17";s:5:"added";s:10:"1589363767";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"2";s:14:"completionview";s:1:"1";s:4:"icon";s:15:"f/powerpoint-24";s:4:"name";s:23:"Presentation on ERO Net";s:10:"customdata";s:311:"a:5:{s:10:"printintro";i:1;s:8:"showsize";i:1;s:8:"showtype";i:1;s:8:"showdate";i:1;s:11:"filedetails";a:4:{s:4:"size";i:416879;s:4:"type";s:28:"Powerpoint 2007 presentation";s:8:"mimetype";s:73:"application/vnd.openxmlformats-officedocument.presentationml.presentation";s:12:"uploadeddate";s:10:"1589363710";}}";}i:41;O:8:"stdClass":13:{s:2:"id";s:1:"5";s:2:"cm";s:2:"41";s:3:"mod";s:4:"page";s:7:"section";s:1:"4";s:9:"sectionid";s:2:"47";s:6:"module";s:2:"15";s:5:"added";s:10:"1589364196";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"2";s:14:"completionview";s:1:"1";s:4:"name";s:26:"See the Article on ERO NET";}i:28;O:8:"stdClass":16:{s:2:"id";s:1:"4";s:2:"cm";s:2:"28";s:3:"mod";s:8:"feedback";s:7:"section";s:1:"4";s:9:"sectionid";s:2:"47";s:6:"module";s:1:"7";s:5:"added";s:10:"1589209258";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"2";s:14:"completionview";s:1:"1";s:15:"showdescription";s:1:"1";s:4:"name";s:35:"Feedback: Your views on this course";s:7:"content";s:149:"<div class="no-overflow"><p>Help us to improve the course for future participants. Your entries will be submitted as an anonymous user.<br></p></div>";s:10:"customdata";a:2:{s:21:"customcompletionrules";a:1:{s:16:"completionsubmit";s:1:"1";}s:9:"anonymous";s:1:"1";}}i:38;O:8:"stdClass":12:{s:2:"id";s:1:"8";s:2:"cm";s:2:"38";s:3:"mod";s:6:"survey";s:7:"section";s:1:"4";s:9:"sectionid";s:2:"47";s:6:"module";s:2:"19";s:5:"added";s:10:"1589359066";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"1";s:4:"name";s:7:"Survey ";}i:43;O:8:"stdClass":12:{s:2:"id";s:1:"9";s:2:"cm";s:2:"43";s:3:"mod";s:6:"survey";s:7:"section";s:1:"4";s:9:"sectionid";s:2:"47";s:6:"module";s:2:"19";s:5:"added";s:10:"1589439314";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"1";s:4:"name";s:7:"survey1";}i:42;O:8:"stdClass":14:{s:2:"id";s:1:"1";s:2:"cm";s:2:"42";s:3:"mod";s:10:"customcert";s:7:"section";s:1:"5";s:9:"sectionid";s:2:"48";s:6:"module";s:2:"24";s:5:"added";s:10:"1589367273";s:7:"visible";s:1:"1";s:19:"visibleoncoursepage";i:1;s:10:"visibleold";s:1:"1";s:10:"completion";s:1:"2";s:14:"completionview";s:1:"1";s:12:"availability";s:313:"{"op":"&","c":[{"type":"completion","cm":16,"e":1},{"type":"completion","cm":33,"e":1},{"type":"completion","cm":19,"e":1},{"type":"completion","cm":30,"e":1},{"type":"completion","cm":39,"e":1},{"type":"completion","cm":40,"e":1},{"type":"completion","cm":28,"e":1}],"showc":[true,true,true,true,true,true,true]}";s:4:"name";s:13:"e-Certificate";}}s:12:"sectioncache";a:6:{i:0;O:8:"stdClass":4:{s:2:"id";s:2:"43";s:4:"name";s:13:"Course Topics";s:7:"summary";s:5683:"<p>
+   </p><table cellspacing="2" cellpadding="2" width="100%" class="table table-striped table-bordered">
+        <tbody>
+            <tr>
+                <td width="499" valign="top">
+                    <p><b>Course Topics</b></p>
+                </td>
+                <td width="139" valign="top">
+                    <p><b>Resource Person/ Guest Faculty</b></p>
+                </td>
+            </tr>
+            <tr>
+                <td width="499" valign="top">
+                    <p>Electoral Technologies used in Myanmar and the future challenges</p>
+                </td>
+
+                <td width="139" valign="top">
+                    <p>UECM</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="499" valign="top">
+                    <p>Technologies used across the electoral Cycle</p>
+                    <p>(Guiding principles for identification and procurement of technologies to be used; Selecting a technology)
+                    </p>
+                </td>
+                <td width="139" valign="top">
+                    <p>Dr Noor Mohammad</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="499" valign="top">
+                    <p>Delimitation of constituencies and polling station areas including polling station locations on GIS maps</p>
+                </td>
+
+                <td width="139" valign="top">
+                    <p>Ashish Chakraborty and one IT experts on GIS</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="499" valign="top">
+                    <p>On-line Voter Registration and Management of Elector’s Database</p>
+                </td>
+
+                <td width="139" valign="top">
+                    <p>Dir (IT)</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="499" valign="top">
+                    <p>Voter Identification Technologies – Bio metric Voter Registration (BVR)
+                    </p>
+                </td>
+
+                <td width="139" valign="top">
+                    <p>Devesh Nangia</p>
+                    <p>Dr Noor Mohammad</p>
+                </td>
+            </tr>
+            <tr>
+                <td width="499" valign="top">
+                    <p>Service Voter’s Registration and ETPBS&nbsp;</p>
+                </td>
+                <td width="139" valign="top">
+                    <p>Dir (IT)</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="499" valign="top">
+                    <p>Presentation on cVIGIL and Cyber Security</p>
+                </td>
+
+                <td width="139" valign="top">
+                    <p>Dir (ICT)</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="499" valign="top">
+                    <p>Presentation on NGSP and 1950: PGRS Tool</p>
+                </td>
+
+                <td width="139" valign="top">
+                    <p>Dir (ICT)</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="499" valign="top">
+                    <p>Presentation on New Suvidha and Voter Helpline App.</p>
+                </td>
+
+                <td width="139" valign="top">
+                    <p>Dir (ICT)</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="499" valign="top">
+                    <p>ECI Webcasting Tool to Enhance Transparency in the Polling Station in Real Time</p>
+                </td>
+
+                <td width="139" valign="top">
+                    <p>Dir (ICT)</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="499" valign="top">
+                    <p>ICT &amp; Mobile Applications – Observer’s Portal, PwD App etc.</p>
+                </td>
+
+                <td width="139" valign="top">
+                    <p>Dir (ICT)</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="499" valign="top">
+                    <p>Poll Day Monitoring System – Election Management Dashboard</p>
+                </td>
+
+                <td width="139" valign="top">
+                    <p>Planning Division</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="499" valign="top">
+                    <p>Technologies Used in Voters Education-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </p>
+                    <p>(Dissemination of information, Educating and Facilitating Voters: toll free numbers, websites, SMS &amp; GPS based polling station information, use of social media etc.)</p>
+                </td>
+                <td width="139" valign="top">
+                    <p>SVEEP Division</p>
+                </td>
+            </tr>
+            <tr>
+                <td width="499" valign="top">
+                    <p>Demonstration of Indian Electronic Voting Machine</p>
+                </td>
+
+                <td width="139" valign="top">
+                    <p>EVM Division</p>
+                </td>
+            </tr>
+            <tr>
+                <td width="499" valign="top">
+                    <p>Electronic voting – EVM &amp; VVPAT; and Future voting Technologies - Internet Voting: Case of Estonia</p>
+                </td>
+
+                <td width="139" valign="top">
+                    <p>Devesh Nangia</p>
+                    <p>Dr Noor Mohammad</p>
+                </td>
+            </tr>
+        </tbody>
+    </table><br><p></p>
+<p></p>";s:12:"availability";s:28:"{"op":"&","c":[],"showc":[]}";}i:1;O:8:"stdClass":4:{s:2:"id";s:2:"44";s:4:"name";s:23:"Presentation on cVIGIL ";s:7:"summary";s:1969:"<p><span><b><img src="@@PLUGINFILE@@/cvigil-100minutes.jpg" alt="cVIGIL 100 Minutes" width="1201" height="543" class="img-responsive atto_image_button_text-bottom"></b></span></p><p><span style="font-size: 0.9375rem;">India being the largest democracy requires strict enforcement of Model Code Conduct (MCC) to ensure free and fair elections. From past many elections, the enforcement machinery has been brought into place which used to identify and take appropriate action against violators. So far, the complaints about violations of Model Code of Conduct often could not be followed instantly, leading to the violators escaping detection from the action squads. Also, due to lack of any documented evidence in the form of pictures, audios or videos it was seen as a hurdle in verifying a complaint. Further, the absence of a robust response system to quickly and accurately identify the scene of occurrence of violations with the help of geographical location details hampered election officers’ ability to apprehend the violators.&nbsp;</span></p><p><b style="font-size: 0.9375rem;">cVIGIL</b><span style="font-size: 0.9375rem;"> empowers Citizens to report Model Code of Conduct Violations such as bribery, free gift, liquor distribution, playing loudspeakers beyond the permissible time during the elections. By using a simple mobile app, the citizen captures the live photo or video. The Election machinery comes into action immediately as they get the evidentiary proof of the violation. Every cVIGIL case is acted upon and replied back with the action taken in the 100-minute timeline. The cVIGIL is now being used in Delhi elections. Since its first pilot in five states’ Assembly General elections during October- December 2018 till the Jharkhand State Assembly General elections during November-December 2019, a total number of 1,71,745 cases have been filled through cVIGIL and from which 1,27,567 (74%) of the cases have been found correct.</span></p>";s:12:"availability";s:28:"{"op":"&","c":[],"showc":[]}";}i:2;O:8:"stdClass":4:{s:2:"id";s:2:"45";s:4:"name";s:18:"Voter Helpline APP";s:7:"summary";s:2740:"<iframe width="100%" height="360" src="https://www.youtube.com/embed/DYgPA2hzFas" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><span style="font-size:1rem;"><b>T</b>he Voters never had the convenience of voter centric features delivered through the mobile app. All the services were available either in the physical format or were scattered in various websites and applications. The Voter had to either fill in the physical form or visit the website. Similarly, making the complaint had been an arduous task. As the&nbsp;</span>
+    <span style="font-size: 0.9375rem;">
+        </span><abbr title="Election Commission of India" style="font-size: 0.9375rem;">ECI</abbr><span style="font-size: 0.9375rem;">&nbsp;main website contains the information for all stakeholders, a normal voter had great difficulty in navigation and finding the content.&nbsp;</span></p>
+<p></p>
+<p>Voter Helpline App is the comprehensive app for Indian Voters to search their name in the electoral roll, submit forms for voter registration &amp; modification, download their digital photo voter slips, make complaints, find details about the contesting
+    candidates and most importantly see the real-time results of the elections.&nbsp;</p>
+<p><strong>19 Million (1.9 Crore)</strong>&nbsp;users used the Voter Helpline Mobile Application to search their names in the Electoral Roll till date.</p>
+<p>With 2,16,81,289&nbsp;<strong>(2.16 Crore or 21 Million)</strong>&nbsp;downloads and 1,53,604 (<strong>1.53 lac or 153K</strong>) user feedback, this national award-winning application has taken roots as a major tool for citizen empowerment. The seed
+    for the Voter Helpline was sown in the year 2016, when a new website for Election Commission was envisaged. In the process of designing the new website, the concept of Voter Helpline took its humble beginnings. At that stage, the Project was codenamed
+    as ‘<abbr title="Election Commission of India">ECI</abbr>&nbsp;Citizen App’ and the initial objective was to display on the mobile app, the main&nbsp;<abbr title="Election Commission of India">ECI</abbr>&nbsp;&nbsp; Website content.</p>
+<p>However, soon we identified 5 core but disparate applications which perfectly made sense for all of us in&nbsp;<abbr title="Election Commission of India">ECI</abbr>&nbsp;but hardly made any sense to the voter. For us in the&nbsp;<abbr title="Election Commission of India">ECI</abbr>&nbsp;every
+    application was as important as the other and every application justified its independent existence. But in-turn we were sending our hapless voters to five different websites to do the transactions.</p><br>
+<p></p>";s:12:"availability";s:28:"{"op":"&","c":[],"showc":[]}";}i:3;O:8:"stdClass":4:{s:2:"id";s:2:"46";s:4:"name";s:13:"Voter turnout";s:7:"summary";s:1361:"<p></p><p><img src="@@PLUGINFILE@@/turnout1.thumb.jpg.6be57ddbf1012ca58be8846b12c906e7.jpg" alt="Voter Turnout" width="388" height="400" class="img-responsive atto_image_button_left">Earlier, the 2 hourly voter turnout used to be captured by Returning Officers from Polling Station, thereafter the report used to be sent to District and then to Chief Electoral Officers. The CEO would then compile and send the report to&nbsp;<abbr title="Election Commission of India">ECI</abbr>. The media, however, would get the voter turnout only at the end of the day.&nbsp;</p><p><b>Voter Turnout</b> was launched mid-way during the Parliamentary Elections of 2019 and it completely transformed the way the voter turnout was shared with the media and citizens.&nbsp;</p><p>With the launch of the Voter turnout, the turnout is auto-compiled as and when the Returning Officers enter the data. During the day, only percentage voter turnout is entered by the respective Returning Officers. Once the polling party reaches back to the reception centre, a detailed voter turnout consisting of male, female and others are then entered into the system. The Voter turnout app is available both as an android mobile app and also on the desktop.&nbsp;</p><p>It also helps the officers to analyze the voting trends and take action if any exceptional behavior is noticed.</p><br><p></p>";s:12:"availability";s:28:"{"op":"&","c":[],"showc":[]}";}i:4;O:8:"stdClass":4:{s:2:"id";s:2:"47";s:4:"name";s:7:"ERO Net";s:7:"summary";s:1604:"<p><img src="@@PLUGINFILE@@/ero-net.thumb.jpg.8372314608b6869328a5ebada806a8ad.jpg" alt="ERO Net" width="400" height="259" class="img-responsive atto_image_button_right"><b style="font-size: 0.9375rem;">ERONET </b><span style="font-size: 0.9375rem;">is a web-based system for Electoral officials, in 14 languages and 11 scripts, to handle all processes pertaining to Form 6/6A/7/8/8A/001.</span></p><ul><li>All 29 States and 7 UTs are sharing common infrastructure at National Level.</li><li>UNPER (Unified National Photo Electoral Roll) is a common database for all States and UTs with data of 92 crore electors.</li></ul><p>ERONET standardised forms processing, standard database schema, and a standard template for eroll printing. It automates the process of electoral roll management starting from elector registration, field verification of electors, decision support system for Electoral registration officers and for providing extensive integrated value-added services.&nbsp;</p><p>Citizens can fill up various online forms on National Voters’ Service Portal, nvsp.in or by using voter helpline mobile application. The form is processed thereafter in ERONET. The applicant also gets periodical alerts and notifications on each activity performed at ERONET.</p><p>ERO-Net application is available pan India, to all citizens of India for enrollment/ corrections/migration from Electoral Roll. The application on the backend is available for the Election commission of India, all Chief Electoral Officers, District Election Officers, Electoral Roll Officers and Booth Level Officers.</p><br><p></p>";s:12:"availability";s:28:"{"op":"&","c":[],"showc":[]}";}i:5;O:8:"stdClass":3:{s:2:"id";s:2:"48";s:4:"name";s:20:"Get your Certificate";s:12:"availability";N;}}s:9:"shortname";s:15:"ECI-UECM Course";s:8:"fullname";s:60:"ECI-UECM Course- Capacity Building on Electoral Technologies";s:6:"format";s:6:"topics";s:16:"enablecompletion";s:1:"1";s:9:"groupmode";s:1:"0";s:14:"groupmodeforce";s:1:"0";s:8:"cacherev";s:10:"1622709428";}

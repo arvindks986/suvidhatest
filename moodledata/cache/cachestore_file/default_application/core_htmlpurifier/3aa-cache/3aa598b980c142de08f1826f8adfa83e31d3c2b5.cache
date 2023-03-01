@@ -1,0 +1,6 @@
+s:362:"<p>Shows statistics for sessions where attendance has been taken:</p>
+
+<ul><li><strong>Sessions</strong>: number of already taken sessions.</li>
+    <li><strong>Points</strong>: points awarded based on the taken sessions.</li>
+    <li><strong>Percentage</strong>: percentage of points awarded over the maxium possible points of the taken sessions.</li>
+    </ul>";

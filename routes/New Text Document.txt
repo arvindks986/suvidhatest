@@ -1,0 +1,30 @@
+   //----------------------------Divya-------------------------------------------//
+    
+Route::get('/reportceo','Admin\ReportCeoController@reportceo');
+    
+Route::post('/reportdates','Admin\ReportCeoController@reportdates');
+    
+Route::get('/getDistrictsval','Admin\ReportCeoController@getDistrictsval');
+  
+  //----------------------------Divya-------------------------------------------//
+  
+
+//----------------------------Divya-------------------------------------------//
+    
+Route::get('/reportdeo','Admin\ReportDeoController@reportdeo');
+   
+Route::post('/reportdates','Admin\ReportDeoController@reportdates');
+//----------------------------Divya-------------------------------------------//
+  
+
+
+
+//----------------------------Divya-------------------------------------------//
+    
+Route::get('/reportpc','Admin\PCRoreportsController@reportpc');
+     
+Route::post('/reportdates','Admin\PCRoreportsController@reportdates');
+//----------------------------Divya-------------------------------------------//
+    
+
+

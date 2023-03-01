@@ -1,0 +1,12 @@
+
+
+testsrv : Feb  1 15:24:23 : newgensys : user NOT in sudoers ; TTY=pts/15 ; PWD=/var/www/html/newgensys ; USER=root ; COMMAND=/usr/bin/unzip candidate.zip
+
+
+
+testsrv : Feb 11 12:33:49 : newgensys : user NOT in sudoers ; TTY=pts/12 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/zip newgensys.zip newgensys
+
+
+
+testsrv : Feb 11 12:34:49 : newgensys : user NOT in sudoers ; TTY=pts/12 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/zip -r newgensys.zip newgensys
+

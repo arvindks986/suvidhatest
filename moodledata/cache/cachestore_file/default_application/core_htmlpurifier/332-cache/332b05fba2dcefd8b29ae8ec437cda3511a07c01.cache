@@ -1,0 +1,7 @@
+s:627:"<p>This function allows you to create multiple sessions in one simple step.
+The sessions begin on the date of the base session and continue until the 'repeat until' date.</p>
+
+<ul><li><strong>Repeat on</strong>: Select the days of the week when your class will meet (for example, Monday/Wednesday/Friday).</li>
+<li><strong>Repeat every</strong>: This allows for a frequency setting. If your class will meet every week, select 1; if it will meet every other week, select 2; every 3rd week, select 3, etc.</li>
+<li><strong>Repeat until</strong>: Select the last day of class (the last day you want to take attendance).</li>
+</ul>";

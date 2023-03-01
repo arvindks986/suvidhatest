@@ -1,0 +1,22 @@
+<?php
+return [
+    'local' 	=> false,
+    'phases' 	=> [1,2,3,4],
+    'winner' 	=> 'Leading',
+    'loser' 	=> 'Trailing',
+    'mongo_sync' 	=> true,
+    'label_wonning' 	=> "Won",
+    'label_lead' 	=> "Leading",
+    'label_trail' 	=> "Trailing",
+    'label_tie' 	=> "Tie",
+    'spm_url' 		=> "http://10.199.104.246:97",
+    'google_map_api'    => false,
+	'booth_app_link' => 'https://boothapp.eci.gov.in/boothapp.apk',
+	'cache'          => true,
+    'upload_folder'  => 'uploads1',
+	'is_pusher'      => false,
+	'pc_url'        => 'https://demo.eci.nic.in',
+	'ac_url'        => 'https://demo.eci.nic.in/suvidhaac/public',
+	'pc_url_cand'        => 'https://demo.eci.nic.in/login',
+	'ac_url_cand'        => 'https://demo.eci.nic.in/suvidhaac/public/login',
+];

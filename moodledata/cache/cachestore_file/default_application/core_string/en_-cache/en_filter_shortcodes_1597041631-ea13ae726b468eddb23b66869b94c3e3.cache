@@ -1,0 +1,9 @@
+a:13:{s:11:"description";s:11:"Description";s:10:"filtername";s:10:"Shortcodes";s:4:"less";s:4:"Less";s:4:"more";s:4:"More";s:10:"pluginname";s:10:"Shortcodes";s:16:"privacy:metadata";s:47:"The plugin does not store any user information.";s:9:"shortcode";s:9:"Shortcode";s:19:"shortcode:firstname";s:30:"The current user's first name.";s:18:"shortcode:fullname";s:29:"The current user's full name.";s:13:"shortcode:off";s:86:"Disables the processing of the shortcodes present between its opening and closing tag.";s:18:"shortcode:off_help";s:107:"
+```
+[off]
+    Those tags will remain as is:
+    [onetag]
+    [thirdtag]Hello world![/thirdtag]
+[/off]
+```
+";s:19:"shortcodes:viewlist";s:30:"Viewing the list of shortcodes";s:14:"shortcodeslist";s:18:"List of shortcodes";}
