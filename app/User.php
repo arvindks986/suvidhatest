@@ -1,4 +1,4 @@
-<?php
+ <?php
 namespace App;
 use Laravel\Passport\HasApiTokens;
 use Illuminate\Notifications\Notifiable;
